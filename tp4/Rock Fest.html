@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Fest</title>
+    <meta name="startDate" content="6 de abril" >
+    <meta name="performer" content="Foo Fighters, Green Day, Lenny Kravitz">
+    <meta name="location" content="Los Angeles, USA">
+</head>
+<body>
+    <img src="assets/green.jpg" alt="Green day Concierto" title="Green day" height="200" width="650">
+    <h1>Rock Fest</h1>
+<p><strong>¡El rock te espera!</strong> ¡Únete a nosotros para una noche de música en vivo con múltiples bandas! Disfruta de una variedad de estilos musicales, desde el rock hasta el pop y mucho más. ¡No te pierdas esta experiencia única llena de ritmo y diversión! <b>Te esperamos el 6 de Abril</b></p>
+
+<ul>
+    <li>Foo Fighters</li>
+    <ul type="square">
+        <li>Everlong</li>
+        <li>Best of you</li>
+        <li>All my life</li>
+    </ul>
+    <li>Green Day</li>
+    <ul type="square">
+        <li>American Idiot</li>
+        <li>Holiday</li>
+        <li>Brain Stew</li>
+    </ul>
+    <li>Lenny Kravitz</li>
+    <ul type="square">
+        <li>Fly Away</li>
+        <li>TK421</li>
+        <li>American Woman</li>
+    </ul>
+</ul>
+
+
+<h2>Precios por Sector</h2>
+
+<table border="2">
+    <tr>
+        <th>Sector</th>
+        <th>A</th>
+        <th>B</th>
+        <th>C</th>
+    </tr>
+    <tr>
+        <td>Precios</td>
+        <td>$50</td>
+        <td>$60</td>
+        <td>$70</td>
+        
+    </tr>
+</table>
+<h1>Formulario para la compra de entradas</h1>
+<form action="compraEntradas.html" method="post">
+    <label for="nombre">Nombre y Apellido:</label>
+    <input type="text" id="nombre" name="nombre"><br><br>
+    <label for="tel">Telefono:</label>
+    <input type="number" name="tel" id="tel"><br><br>
+    <label for="email">Correo electronico:</label>
+    <input type="email" name="email" id="email"><br><br>
+    <label for="provincia">Seleccione su provincia:</label>
+    <select name="provincia" id="provincia">
+        <option>-</option>
+        <option>Buenos Aires</option>
+        <option>La Rioja</option>
+        <option>Cordoba</option>
+        <option>Mendoza</option>
+        <option>Salta</option>
+        <option>Tucuman</option>
+        <option>Entre Rios</option>
+        <option>San Luis</option>
+    </select> <br><br>
+    <label for="ritmo">Seleccione su genero musical:</label>
+    <select name="ritmo" id="ritmo">
+        <option>Rock</option>
+        <option>Punk</option>
+        <option>Heavy Metal</option>
+        <option>Country</option>
+
+    </select>
+    <p> Si tiene alguna duda sobre el festival, coloquela aqui abajo: </p>
+        <textarea name= "pregunta" placeholder="agregue una pregunta"></textarea>
+        <br>
+    <input type="submit">
+
+
+</form>
+    
+</body>
+</html>
