@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tadeo Gomez Navarro">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Magic Lantern <a href="index.html"><img src="assets/lantern.jpg" alt="Magic Lantern" width="100"></a></h1>
+        <h3>Contacto</h3>
+    </header>
+    <main>
+        <section>
+            <h4>Ingrese sus datos</h4>
+            <p>¡Ingrese sus datos para trabajar con nosotros!</p>
+            <form action="#">
+                <label for="nombre">Ingrese su nombre:</label>
+                <input type="text" name="nombre" id="nombre"><br><br>
+                <label for="genero">Seleccione su genero:</label><br>
+                <input type="radio" name="genero" id="genero1"> <span>Femenino</span>
+                <input type="radio" name="genero" id="genero2"> <span>Masculino</span>
+                <input type="radio" name="genero" id="genero3"> <span>Otro</span><br><br>
+                <label for="correo">Ingrese su correo electronico:</label>
+                <input type="email" name="correo" id="correo"><br><br>
+                <label for="telefono">Ingrese su numero de telefono:</label>
+                <input type="number" name="telefono" id="telefono"><br><br>
+                <label for="provincia">Seleccione su provincia:</label>
+                <select name="provincia" id="provincia">
+                    <option>-</option>
+                    <option>Buenos Aires</option>
+                    <option>CABA</option>
+                    <option>Catamarca</option>
+                    <option>Chaco</option>
+                    <option>Chubut</option>
+                    <option>Córdoba</option>
+                    <option>Corrientes</option>
+                    <option>Entre Ríos</option>
+                    <option>Formosa</option>
+                    <option>Jujuy</option>
+                    <option>La Pampa</option>
+                    <option>La Rioja</option>
+                    <option>Mendoza</option>
+                    <option>Misiones</option>
+                    <option>Neuquén</option>
+                    <option>Río Negro</option>
+                    <option>Salta</option>
+                    <option>San Juan</option>
+                    <option>San Luis</option>
+                    <option>Santa Cruz</option>
+                    <option>Santa Fe</option>
+                    <option>Santiago del Estero</option>
+                    <option>Tierra del Fuego</option>
+                    <option>Tucuman</option>
+                </select><br><br>
+                <textarea name="comentario" id="comentario" cols="20" rows="10" placeholder="Ingrese su Comentario"></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section>
+            <form action="#">
+                <p><strong>Inicie sesion</strong></p>
+                <label for="usuario">Ingrese su usuario:</label>
+                <input type="text" name="usuario" id="usuario"><br><br>
+                <label for="contraseña">Ingrese su contraseña:</label>
+                <input type="password" name="contraseña" id="contraseña"><br><br>
+                <input type="submit" value="Acceder">
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
