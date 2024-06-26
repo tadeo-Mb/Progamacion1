@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="typography.css" />
+    <link rel="stylesheet" href="stylecommon.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="assets/logo.png" alt="logo" /></a>
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="services.html">Servicios</a>
+        <a href="suscripcion.html">Subscribirse</a>
+        <a href="tv.html">Flow</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Formulario de suscripcion</h2>
+      <section class="flex">
+        <div class="iz">
+          <section class="sub">
+            <form action="#">
+              <article>
+                <h4>Nombre y Apellido</h4>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Homero Simpson"
+                />
+              </article>
+              <article>
+                <h4>Seleccione su Genero</h4>
+                <input type="radio" name="gender" id="gender" />
+                <label for="gender">Femenino</label>
+                <input type="radio" name="gender" id="gender" />
+                <label for="gender">Masculino</label>
+              </article>
+              <article>
+                <h4 for="mail">Correo Electronico</h4>
+                <input
+                  type="email"
+                  name="mail"
+                  id="mail"
+                  placeholder="correofalso@gmail.com"
+                />
+              </article>
+              <article>
+                <h4 for="provincia">Seleccione su Provincia</h4>
+                <select name="provincia" id="provincia">
+                  <option value="opcion0"></option>
+                  <option value="opcion1">La Rioja</option>
+                  <option value="opcion2">Cordoba</option>
+                  <option value="opcion3">Mendoza</option>
+                  <option value="opcion4">CABA</option>
+                </select>
+              </article>
+              <article>
+                <h4 for="direccion">Ingrese su Direccion</h4>
+                <input
+                  type="text"
+                  name="direccion"
+                  id="direccion"
+                  placeholder="Calle Falsa 123"
+                />
+              </article>
+              <article>
+                <h4 for="phone">Ingrese su numero de telefono</h4>
+                <input
+                  type="number"
+                  name="phone"
+                  id="phone"
+                  placeholder="1234567"
+                />
+              </article>
+              <article>
+                <h4>Tipo de suscripcion</h4>
+                <input type="radio" name="serv" id="serv" />
+                <label for="serv">Personal</label>
+                <input type="radio" name="serv" id="serv" />
+                <label for="serv">Empresarial</label>
+              </article>
+              <button type="submit">Enviar</button>
+            </form>
+          </section>
+        </div>
+        <div class="de">
+          <aside>
+            <a href="https://tienda.coca-cola.com.ar/" target="_blank"
+              ><img src="assets/publivert.jpg" alt="Coca-Cola"
+            /></a>
+          </aside>
+        </div>
+      </section>
+      <section>
+        <article class="promo">
+          <div id="fondoblue">
+            <h4>PROMO EXCLUSIVA</h4>
+            <p>300 MB a $13.980 + Flow Flex Sin Cargo Por 3 Meses</p>
+            <p>Desde 24/6 hasta el 24/8</p>
+          </div>
+        </article>
+        <article class="tele">
+          <i class="bi bi-telephone-fill"></i> Venta Telefonica 0800 555 0128 |
+          <a
+            href="https://api.whatsapp.com/send?phone=5491126222222&text=%C2%A1Hola!%20Quiero%20contratar%20Internet%20Personal%20para%20mi%20hogar.&utm_source=whatsapp&utm_medium=whatsapp&utm_campaign=form_portabilidad"
+            target="_blank"
+            ><i class="bi bi-whatsapp"></i> Whatsapp</a
+          >
+        </article>
+      </section>
+    </main>
+    <footer>
+      <section class="icons">
+        <a href="https://www.facebook.com/personalflowayuda" target="_blank"
+          ><i class="bi bi-facebook"></i
+        ></a>
+        <a href="https://twitter.com/PersonalFlow_At" target="_blank"
+          ><i class="bi bi-twitter-x"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/company/telecom-argentina/"
+          target="_blank"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+        <a href="https://maps.app.goo.gl/kus7EQ8sLenZyy6V9" target="_blank"
+          ><i class="bi bi-geo-alt-fill"></i
+        ></a>
+      </section>
+      <section class="copy">
+        <p>
+          &copy; Personal Contacto 0800 555 3569 General Hornos 690 - Ciudad de
+          Bs. As.
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>
